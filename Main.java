@@ -1,14 +1,15 @@
 public class Main {
   
 
-  public static void introduceOneself(){
-    String name = "Tomoya Kobayashi";
-    int old = 54;
-    float height = 176;
-    char eto = '羊';
-    System.out.println("私の名前は " + name + " です");
-    System.out.println("年齢は " + old + " で、身長は " + height + " です");
-    System.out.println("干支は " + eto + " になります");
+  public static void email(String title, String address, String text){
+    title = "こんにちわ";
+    address = "aaa@gmal.com";
+    text = "メールを送ります";
+
+    System.out.println(address + " に、以下のメールを送信しました");
+    System.out.println("件名： " + title);
+    System.out.println("本文: " + text);
+
     
   }
 
@@ -17,6 +18,6 @@ public class Main {
   // Stringクラスのインスタンスです。
 
   public static void main(String[] args) { //argとはargumentの略で、引数という意味
-    introduceOneself();
+    email("aaa","bbb","ccc");
   }
   }
