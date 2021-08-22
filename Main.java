@@ -7,7 +7,7 @@ public class Main {
     }
   }
 
-  public static void main(String[] args) {
+  public static void main(String[] args) { //argとはargumentの略で、引数という意味
     int[] array = {1, 2, 3};
     incArray(array);
     for (int i : array) {
