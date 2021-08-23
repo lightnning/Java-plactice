@@ -1,26 +1,23 @@
 public class Main {
-  
-
-  public static double calcTriangleArea(double bottom, double height){
-
-    double area = (bottom * height) / 2;
-    return area;
-      
+  public static void main(String[] args) throws Exception {
+    doWarusa();
+    doTogame();
+    callDeae();
+    showMondokoro();
   }
+  public static void doWarusa(){
+    System.out.println("きなこでござる。食えませんがの。");
+  }  
+  public static void doTogame(){
+    System.out.println("この老ぼれの目はごまかせませんぞ。");
+  } 
+  public static void callDeae(){
+    System.out.println("えぇい、こしゃくな。くせ者だ！であえい！");
+  } 
+  public static void showMondokoro() throws Exception {
+    System.out.println("飛車さん、角さん。もういいでしょう。");
+    System.out.println("この紋所が目に入らぬか！");
+    doTogame();
 
-  public static double calcCircleArea(double redius){
-    
-    double area = redius * redius * 3.14;
-    return area;
-      
   }
-
-  
-
-
-  public static void main(String[] args) { //argとはargumentの略で、引数という意味
-
-    System.out.println(calcTriangleArea(10, 5));
-    System.out.println(calcCircleArea(5));
-  }
-  }
+}
