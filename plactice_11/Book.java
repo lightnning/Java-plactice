@@ -1,19 +1,12 @@
-public class Book {
-  String name;
-  int price;
-  String color;
+public class Book extends TangibleAsset {
   String isbn;
+  private String name;
   // コンストラクタ
   public Book
-    (String name, int price, String color, Stirng isbn) {
-    this.name = name;
-    this.price = price;
-    this.color = color;
+      (String name, int price, String color, Stirng isbn) {
+    super(name, price, color);
     this.isbn = isbn;
   }
   // メソッド
-  public String getName() {return this.name;}
-  public int getPrice() {return this.price;}
-  public String getcolor(){return this.color;}
   public String getIsbn() {return this.isbn;}
 }
