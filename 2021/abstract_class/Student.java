@@ -1,8 +1,8 @@
-public class Student6 {
+public class Student {
   private String name; // 氏名
   private Club club; // Clubオブジェクト
 
-  public Student6(String name, Club club) {
+  public Student(String name, Club club) {
     this.name = name;
     this.club = club;
   }
